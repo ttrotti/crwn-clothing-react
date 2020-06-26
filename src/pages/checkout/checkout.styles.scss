@@ -17,8 +17,16 @@
       text-transform: capitalize;
       width: 23%;
 
+      @media screen and (max-width: 800px) {
+        width: 22%
+      }
+
       &:last-child {
         width: 8%;
+
+        @media screen and (max-width: 800px) { 
+          width: 12%;
+        }
       }
     }
   }
@@ -39,5 +47,9 @@
     margin-top: 40px;
     font-size: 24px;
     color: red;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 90%;
   }
 }
